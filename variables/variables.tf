@@ -5,7 +5,7 @@ variable "image_id" {
 
 }
 
-variable "instance_type" {
+variable "instance_type_val" {
     type = string
     default = "t3.micro"
 }
